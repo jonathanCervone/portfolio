@@ -1,0 +1,40 @@
+﻿.left-menu {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 200px;
+    bottom: 0;
+    background-color: rgba(100,100,120,1);
+    font-size: 11px;
+    color: rgba(255,255,255,1);
+    line-height: 20px;
+    font-family: sans-serif;
+}
+
+.left-menu-item {
+    padding: 10px 5px 10px 10px;
+}
+
+.left-menu-item-selected {
+    padding: 10px 5px 10px 10px;
+    background-color: rgba(200,200,215,1);
+    color: rgba(100,100,100,1);
+    font-size: 12px;
+}
+
+.left-menu-item:hover {
+    background-color: rgba(125,125,145,1);
+    font-size:12px;
+    cursor: pointer;
+}
+
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid rgba(255,255,255,1);
+    border-bottom: 20px solid transparent;
+    float: right;
+    margin-top: -10px;
+    margin-right: -5px;
+}

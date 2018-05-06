@@ -1,0 +1,355 @@
+﻿{
+  "experiences": [
+    {
+      "name": "Technical Skills",
+      "description": "A summary of technical skills acquired, wheither they were obtained through work experience or classes, and my relative skill level for each on a scale of 1 to 5.",
+      "items": [
+        {
+          "name": "C/C++",
+          "aptitude": [ 1, 1, 1, 0, 0 ],
+          "class": true,
+          "work": true
+        },
+        {
+          "name": "C#",
+          "aptitude": [ 1, 1, 1, 1, 0 ],
+          "class": true,
+          "work": true
+        },
+        {
+          "name": "C#/ Razor",
+          "aptitude": [ 1, 1, 1, 0, 0 ],
+          "class": false,
+          "work": true
+        },
+        {
+          "name": "VBScript",
+          "aptitude": [ 1, 1, 0, 0, 0 ],
+          "class": false,
+          "work": true
+        },
+        {
+          "name": "SQL Server",
+          "aptitude": [ 1, 1, 1, 1, 0 ],
+          "class": false,
+          "work": true
+        },
+        {
+          "name": "XML",
+          "aptitude": [ 1, 1, 0, 0, 0 ],
+          "class": false,
+          "work": true
+        },
+        {
+          "name": "Microsoft Office/ Excel",
+          "aptitude": [ 1, 1, 1, 0, 0 ],
+          "class": false,
+          "work": true
+        },
+        {
+          "name": "VBA",
+          "aptitude": [ 1, 1, 0, 0, 0 ],
+          "class": true,
+          "work": true
+        },
+        {
+          "name": "Ruby on Rails",
+          "aptitude": [ 1, 1, 0, 0, 0 ],
+          "class": false,
+          "work": true
+        },
+        {
+          "name": "MySQL",
+          "aptitude": [ 1, 1, 0, 0, 0 ],
+          "class": false,
+          "work": true
+        },
+        {
+          "name": "HTML5",
+          "aptitude": [ 1, 1, 1, 1, 0 ],
+          "class": true,
+          "work": true
+        },
+        {
+          "name": "CSS3",
+          "aptitude": [ 1, 1, 1, 1, 0 ],
+          "class": true,
+          "work": true
+        },
+        {
+          "name": "ASP.net",
+          "aptitude": [ 1, 1, 1, 0, 0 ],
+          "class": false,
+          "work": true
+        },
+        {
+          "name": "IIS",
+          "aptitude": [ 1, 1, 1, 0, 0 ],
+          "class": false,
+          "work": true
+        },
+        {
+          "name": "Arduino",
+          "aptitude": [ 1, 1, 1, 1, 0 ],
+          "class": false,
+          "work": true
+        },
+        {
+          "name": "Azure",
+          "aptitude": [ 1, 1, 0, 0, 0 ],
+          "class": false,
+          "work": true
+        },
+        {
+          "name": "AngularJS",
+          "aptitude": [ 1, 1, 1, 1, 0 ],
+          "class": false,
+          "work": true
+        },
+        {
+          "name": "MQTT",
+          "aptitude": [ 1, 1, 1, 0, 0 ],
+          "class": false,
+          "work": true
+        },
+        {
+          "name": "WebRTC",
+          "aptitude": [ 1, 1, 1, 0, 0 ],
+          "class": false,
+          "work": true
+        },
+        {
+          "name": "Breadbording",
+          "aptitude": [ 1, 1, 1, 0, 0 ],
+          "class": false,
+          "work": true
+        },
+        {
+          "name": "MVC",
+          "aptitude": [ 1, 1, 1, 0, 0 ],
+          "class": false,
+          "work": true
+        },
+        {
+          "name": "Umbraco",
+          "aptitude": [ 1, 1, 1, 0, 0 ],
+          "class": false,
+          "work": true
+        },
+        {
+          "name": "Java",
+          "aptitude": [ 1, 1, 0, 0, 0 ],
+          "class": true,
+          "work": false
+        },
+        {
+          "name": "Javascript",
+          "aptitude": [ 1, 1, 1, 1, 0 ],
+          "class": true,
+          "work": true
+        },
+        {
+          "name": "Android Development",
+          "aptitude": [ 1, 1, 0, 0, 0 ],
+          "class": true,
+          "work": false
+        },
+        {
+          "name": "Project Management",
+          "aptitude": [ 1, 0, 0, 0, 0 ],
+          "class": true,
+          "work": false
+        }
+
+      ]
+    },
+    {
+      "name": "Education",
+      "description": "Summary of Education and some coursework relavant to software development.",
+      "degrees": [
+        {
+          "name": "Bachelor of Science in Information Technology, concentration on Advanced Software Development",
+          "date": "October 2017",
+          "school": "University of Phoenix",
+          "classes": [
+            "Database Concepts",
+            "Fundamentals of Networking",
+            "Discrete Math for Information Technology",
+            "Fundamentals of Business Systems Development",
+            "Project Planning and Implementation",
+            "Application Implementation",
+            ".Net II",
+            "Advanced Web Development",
+            "Intro to Information Assurance & Security"
+          ]
+        },
+        {
+          "name": "Advanced Software Development Certificate",
+          "date": "May 2016",
+          "school": "University of Phoenix",
+          "classes": [
+            "Java Programming I",
+            "Android Mobile Development",
+            "Android Mobile Implementation",
+            ".Net I",
+            "C++ Programming I"
+          ]
+        },
+        {
+          "name": "Associate of Arts with a concentration in Information Technology/Programming",
+          "date": "September 2014",
+          "school": "University of Phoenix",
+          "classes": [
+            "Management of Information Systems",
+            "Fundamentals of Programming with Algorithms and Logic",
+            "Web Design I",
+            "Web Design II",
+            "Java Programming",
+            "Introduction to C/C++"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Professional Experience",
+      "description": "Positions held during career, dates position held, and summary of duties.",
+      "items": [
+        {
+          "name": "Software Developer",
+          "date": "March 2015 - Present",
+          "achievement": "Quickly adapted to multiple new platforms the need for little instruction.",
+          "duties": [
+            "Collaborate with other developers and electrical engineers in an Agile environment.",
+            "Research hardware and software components for feasibility and use in projects.",
+            "Modify and update existing software to fufill changing requirements.",
+            "Gather requirements from stakeholders for internal projects",
+            "Create code following best standards and adhering to timelines",
+            "Display accountability and reliability when working remotely."
+          ]
+        },
+        {
+          "name": "Systems Integration Specialist",
+          "date": "January 2008 - Present",
+          "achievement": "Using a complicated ERP system that I received little training on, self taught and adapted to each additional role given to me. Implemented new methods to reduce workload dramatically. Self taught VBScript, leading to interest in programming and giving the ability to customize existing ERP.",
+          "duties": [
+            "Train employees in ERP software.",
+            "Create consistent, reliable reports on demand for all levels of the company.",
+            "Monitor user activity for processing errors.",
+            "Troubleshoot and correct errors that may arise in regard to the ERP.",
+            "Maintain database integrity and expand upon as needed.",
+            "Identify and advise on new processes for evolving needs."
+          ]
+        },
+        {
+          "name": "MRP Planner",
+          "date": "April 2008 - October 2016",
+          "achievement" : "Implemented and maintained MRP processes and reports, giving each department accurate details on what needed to be done and when; allowing managers to focus on other critical tasks.",
+          "duties": [
+            "Maintain inventory level flags for reordering.",
+            "Run daily reports and MRP calculations.",
+            "Update dates and quantites manufactured products should be built by as a guideline for Production.",
+            "Update dates and quantities purchased products should be ordered as a guideline for Purchasing.",
+            "Maintain forecasts supplied by Sales for inclusion into calculations."
+          ]
+        },
+        {
+          "name": "Purchasing Agent",
+          "date": "October 2014 - November 2016",
+          "achievement": "Along with MRP planning and inventory control roles, reduced inventory levels to 1/5th the levels previously held while still maintaining workable inventory levels.",
+          "duties": [
+            "Purchase all material used by company based off information provided by MRP.",
+            "Source all new products as requested for R&D or new products",
+            "Maintain vendor information and catalog information.",
+            "Create and maintain relations with vendors and establish credit terms."
+          ]
+        },
+        {
+          "name": "Shipping",
+          "date": "August 2014 - January 2016",
+          "achievement": "Identified methods to increase productivity, especially in regards to managing paperwork, that allowed for this to become another duty rather than full time job.",
+          "duties": [
+            "Schedule all LTL shipments and ensure that they arrive on time.",
+            "Prepare all products for shipment.",
+            "Maintain list of backordered items and inform production peroidocally.",
+            "Update sales orders and shipping information in ERP as orders ship.",
+            "Maintain relations and set up rates with shipping companies."
+          ]
+        },
+        {
+          "name": "Inventory Control/ Warehouse Manager",
+          "date": "May 2007 - January 2016",
+          "achievement": "Introduced many procedures and identified existing issues that increased inventory accuracy dramatically; year end variances went from over $2,000,000.00 to under $100,000.00 within one year.",
+          "duties": [
+            "Optimize and maintain inventory levels.",
+            "Organize, process, and analyze company wide inventory and cycle counts.",
+            "Maintain Bill of Materials.",
+            "Transfer materials between multiple buildings."
+          ]
+        },
+        {
+          "name": "Receiving",
+          "date": "May 2014 - January 2016",
+          "achievement": "Introduced barcoding and bin location procedures, which helped identify parts more reliably as well as speed up processes such as cycle counts and transfers.",
+          "duties": [
+            "Receive most parts used by company.",
+            "Proces purchase order receipts, ensure costs and quantities are correct.",
+            "Transfer and store products in centralized locations."
+          ]
+        },
+        {
+          "name": "Returns",
+          "date": "August 2010 - January 2016",
+          "achievement": "Previously a full time job, was able to automate processes and reduce the paperwork load; requiring about an hour every few days to maintain.",
+          "duties": [
+            "Identify all products returned to company.",
+            "Identify issues with product, or escalate to correct employees.",
+            "Track and initialize all repair processes.",
+            "Prepare notes and inform billing on RMA status."
+          ]
+        },
+        {
+          "name": "Costing Analysist",
+          "date": "November 2012 - January 2016",
+          "achievement" : "Previously a full time job, was able to identify and correct issues within the ERP to generate reliable costing reports; only requiring monitoring that the data was valid.",
+          "duties": [
+            "Collect and analyze data on product's costs.",
+            "Provide analysis of costs to management for use in determining selling prices.",
+            "Identify and gather missing or ourdated costing information."
+          ]
+        },
+        {
+          "name": "CNC Operator/Programmer",
+          "date": "April 2004 - January 2007",
+          "achievement": "With guidance, was able to restore and optimize outdated CNC machinery; preventing the need for a costly replacement or hiring additional labor.",
+          "duties": [
+            "Perform mainenance on CNC.",
+            "Program CNC for new projects as needed.",
+            "Run CNC as efficently as possible to minimize downtime."
+          ]
+        },
+        {
+          "name": "Electrical Housing Assembler",
+          "date": "April 2004 - January 2007",
+          "achievement": "Orginizational skills, ability to work with little or no supervision, and learning new tasks extermely quickly lead to promotion; managing inventory in the assembly warehouse.",
+          "duties": [
+            "Assemble electrical components in housings to specification.",
+            "Spotweld sheetmetal materials used in housings.",
+            "Mold and prepare plastic components used in housings.",
+            "Solder electrical components such as speakers used in housings.",
+            "Perform test to ensure product works correctly."
+          ]
+        },
+        {
+          "name": "Drafter",
+          "date": "April 2004 - January 2007",
+          "achievement": "Able to apply drafting skills to a new outlet, CNC operation.",
+          "duties": [
+            "Reverse engineer completed products to create mechanical drawings using AutoCAD.",
+            "Create drawings from hand drawn sketches.",
+            "Create 2D and 3D drawings for internal use."
+          ]
+        }
+      ]
+    }
+  ]
+}

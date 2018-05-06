@@ -1,0 +1,49 @@
+﻿<div class="left-menu">
+    <div ng-class="{'left-menu-item':activeData.name != item.name, 'left-menu-item-selected': activeData.name == item.name}" ng-repeat="item in data" ng-click="updateActiveData(item)">
+        {{item.name}}
+        <div class="triangle-left" ng-show="activeData.name == item.name"></div>
+    </div>
+</div>
+
+<div class="content-with-left-menu" ng-show="!activeData">
+    <div class="content-title">Projects</div>
+</div>
+
+<div class="content-with-left-menu" ng-hide="!activeData">
+    <div class="content-title">{{activeData.name}}</div>
+    <div class="content-subtitle">{{activeData.date}}</div>
+
+    <div class="content-header" ng-click="updateObjective()">
+        Objective
+        <i class="content-header-icon" ng-class="{'fa fa-angle-double-up':objectiveOpen, 'fa fa-angle-double-down':!objectiveOpen}"></i>
+    </div>
+    <div class="content-text" ng-hide="!objectiveOpen">{{activeData.objective}}</div>
+    <br />
+    <div class="content-header" ng-click="updateTech()">
+        Tech Stack Used
+        <i class="content-header-icon" ng-class="{'fa fa-angle-double-up':techOpen, 'fa fa-angle-double-down':!techOpen}"></i>
+    </div>
+    <div class="content-group" ng-hide="!techOpen">
+        <div class="content-group-item" ng-repeat="tech in activeData.tech">
+            {{tech}}
+        </div>
+    </div>
+    <br />
+    <div class="content-header" ng-click="updateBuild()">
+        Build Proccess
+        <i class="content-header-icon" ng-class="{'fa fa-angle-double-up':buildOpen, 'fa fa-angle-double-down':!buildOpen}"></i>
+    </div>
+    <div class="content-text" ng-hide="!buildOpen">{{activeData.howBuilt}}</div>
+    <br />
+    <div class="content-header" ng-click="updateTesting()">
+        Testing
+        <i class="content-header-icon" ng-class="{'fa fa-angle-double-up':testingOpen, 'fa fa-angle-double-down':!testingOpen}"></i>
+    </div>
+    <div class="content-text" ng-hide="!testingOpen">{{activeData.testing}}</div>
+    <br />
+    <div class="content-header" ng-click="updateImplementation()">
+        Implementation
+        <i class="content-header-icon" ng-class="{'fa fa-angle-double-up':implementationOpen == true, 'fa fa-angle-double-down':implementationOpen == false}"></i>
+    </div>
+    <div class="content-text" ng-hide="!implementationOpen">{{activeData.implementation}}</div>
+</div>

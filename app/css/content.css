@@ -1,0 +1,349 @@
+﻿.app-content {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    font-family: sans-serif;
+}
+
+.content-with-left-menu {
+    position: fixed;
+    top: 50px;
+    left: 200px;
+    right: 0;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 15px 50px 15px 20px;
+}
+
+.content-title {
+    font-size: 18px;
+    color: rgba(75,75,75,1);
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.content-subtitle {
+    font-size: 16px;
+    color: rgba(150,150,150,1);
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.content-header {
+    font-size: 16px;
+    color: rgba(200,200,200,1);
+    text-align: left;
+    width: 100%;
+    padding: 10px 15px;
+    font-weight: bold;
+    background-color: rgba(100,100,120,1);
+    line-height: 20px;
+    height: 20px;
+}
+
+.content-header:hover {
+    cursor: pointer;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+
+.no-hover:hover {
+    font-size: 16px;
+    color: rgba(200,200,200,1);
+    cursor: auto;
+}
+
+.content-text {
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+    text-align: left;
+    width: 100%;
+    padding: 15px;
+    word-wrap: break-word;
+    background-color: rgba(225,225,240,1);
+}
+
+hr {
+    margin: 0 15px; 
+}
+
+.content-group {
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+    text-align: left;
+    width: 100%;
+    padding: 15px;
+    display: inline-block;
+    background-color: rgba(225,225,240,1);
+    margin-bottom: 15px;
+}
+
+.content-group-item {
+    float: left;
+    width: 30%;
+    padding-bottom: 5px;
+    height: 40px;
+}
+
+.content-header-icon{
+    float:right;
+}
+
+.content-list {
+    font-size: 14px;
+    color: rgba(0,0,0,1);
+    text-align: left;
+    width: 100%;
+    padding: 15px;
+    display: inline-block;
+    background-color: rgba(225,225,240,1);
+    margin-bottom: 15px;
+}
+
+.content-list:hover{
+    background-color: rgba(200,200,220,1);
+}
+
+.content-list-item {
+    float: left;
+    width: 20%;
+    padding-bottom: 5px;
+}
+
+.content-list-item-large {
+    float: left;
+    width: 35%;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.content-list-marker-filled {
+    width: 7px;
+    height: 14px;
+    background-color: rgba(50, 200, 250, 1);
+    color: rgba(50, 200, 250, 1);
+    border: 1px solid rgba(0, 0, 0, 1);
+    float: left;
+    margin-left: 1px;
+}
+
+.content-list-marker-empty {
+    width: 7px;
+    height: 14px;
+    background-color: rgba(255,255,255,1);
+    color: rgba(255,255,255,1);
+    border: 1px solid rgba(0, 0, 0, 1);
+    float: left;
+    margin-left: 1px;
+}
+
+.center{
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.right-half {
+    float: right;
+    text-align: right;
+    width: 50%;
+}
+
+.left-half {
+    float: left;
+    text-align: left;
+    width: 50%;
+}
+
+.centered-object {
+    position: relative;
+    left: 50%;
+    width: 600px;
+    height: 600px;
+    margin: 50px 0 0 -300px;
+}
+.overlay {
+    background-color: rgba(10,10,10,.95);
+    margin: 0 auto;
+    padding: 50px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.home-header {
+    width: 90%;
+    font-size: 36px;
+    text-align: center;
+    line-height: 40px;
+    margin: 20px 5% 50px 5%;
+    color: rgba(255,255,255,1);
+    font-weight: bold;
+}
+
+.home-subheader {
+    width: 90%;
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+    margin: 20px 5% 50px 5%;
+    color: rgba(255,255,255,1);
+    font-weight: bold;
+}
+
+.home-link {
+    width: 50%;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    margin: 20px 25%;
+    color: rgba(255,255,255,1);
+    font-weight: bold;
+    text-align: left;
+    border: 1px solid rgba(255,255,255,1);
+    min-height: 40px;
+    padding: 0 20px;
+}
+
+.home-link-container {
+    width: 50%;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    margin: 20px 25%;
+    color: rgba(255,255,255,1);
+    font-weight: bold;
+    text-align: left;
+    min-height: 40px;
+    padding: 0 20px;
+}
+
+.home-link-title{
+    float:left;
+    width: 80%;
+}
+
+.home-link-icon{
+    float: left;
+    width: 20%;
+    text-align: left;
+}
+
+.home-link a:visited {
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+}
+
+.home-link a:link {
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+}
+
+.home-link:hover {
+    font-size: 20px;
+    cursor: pointer;
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    background-color: rgba(0,125,255,.1);
+}
+
+.home-link-container a:visited {
+    color: rgba(150,150,150,1);
+    text-decoration: none;
+}
+
+.home-link-container a:link {
+    color: rgba(150,150,150,1);
+    text-decoration: none;
+}
+
+.home-link-container a:hover {
+    font-size: 20px;
+    cursor: pointer;
+    color: rgba(0,125,255,1);
+    text-decoration: none;
+}
+
+
+.full-content {
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blue {
+    color: rgba(0, 125, 200, 1);
+}
+
+.top-display {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 40%;
+    padding: 20px;
+}
+
+.bottom-display {
+    position: absolute;
+    top: 80%;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    white-space: nowrap;
+    overflow: auto;
+    overflow-y: hidden;
+    display: inline-block;
+}
+
+.image-thumbnail {
+    width: 115px;
+    max-width: 115px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: inline;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    max-height: 90%;
+}
+
+.image-thumbnail:hover {
+    width: 125px;
+    max-width: 125px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    display: inline;
+    cursor: pointer;
+}
+
+.centered-image{
+    margin: 0 auto;
+    display: block;
+    height: 100%;
+}
+
+.thumbnail-group {
+    display: inline-block;
+    margin-bottom: 15px;
+    overflow-x: auto;
+}

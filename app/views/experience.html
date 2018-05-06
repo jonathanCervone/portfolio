@@ -1,0 +1,68 @@
+﻿<div class="left-menu">
+    <div ng-class="{'left-menu-item':activeData.name != item.name, 'left-menu-item-selected': activeData.name == item.name}" ng-repeat="item in data | orderBy:'name'" ng-click="updateActiveData(item)">
+        {{item.name}}
+        <div class="triangle-left" ng-show="activeData.name == item.name"></div>
+    </div>
+</div>
+
+<div class="content-with-left-menu" ng-show="!activeData">
+    <div class="content-title">Experiences</div>
+</div>
+
+<div class="content-with-left-menu" ng-hide="!activeData || activeData.name != 'Technical Skills'">
+    <div class="content-title">{{activeData.name}}</div>
+    <div class="content-subtitle">{{activeData.description}}</div>
+
+    <div class="content-list" ng-repeat="item in activeData.items | orderBy:'name'">
+        <div class="content-list-item-large">{{item.name}}</div>
+        <div class="content-list-item">
+            <i ng-show="item.work" class="fa fa-briefcase"></i>
+        </div>
+        <div class="content-list-item">
+            <i ng-show="item.class" class="fa fa-graduation-cap"></i>
+        </div>
+        <div class="content-list-item">
+            <div ng-repeat="number in item.aptitude track by $index">
+                <div ng-if="number == 1" class="content-list-marker-filled">x</div>
+                <div ng-if="number == 0" class="content-list-marker-empty">x</div>
+            </div>        
+        </div>
+    </div>
+</div>
+
+<div class="content-with-left-menu" ng-hide="!activeData || activeData.name != 'Professional Experience'">
+    <div class="content-title">{{activeData.name}}</div>
+    <div class="content-subtitle">{{activeData.description}}</div>
+
+    <div ng-repeat="item in activeData.items | orderBy">
+        <div class="content-header no-hover">
+            <div class="left-half">{{item.name}}</div> 
+            <div class="italic right-half">{{item.date}}</div>
+        </div>
+        <div class="content-text">
+            <span class="italic">{{item.achievement}}</span>
+            <ul>
+                <li ng-repeat="duty in item.duties">{{duty}}</li>
+            </ul>
+        </div>
+        <br/>
+    </div>
+</div>
+
+<div class="content-with-left-menu" ng-hide="!activeData || activeData.name != 'Education'">
+    <div class="content-title">{{activeData.name}}</div>
+    <div class="content-subtitle">{{activeData.description}}</div>
+
+    <div ng-repeat="item in activeData.degrees">
+        <div class="content-header no-hover">{{item.name}}</div>
+        <div class="content-text">
+            <span class="italic">{{item.date}}</span> - {{item.school}}
+        </div>
+
+        <div class="content-group">
+            <div class="content-group-item" ng-repeat="class in item.classes | orderBy">
+                {{class}}
+            </div>
+        </div>
+    </div>
+</div>

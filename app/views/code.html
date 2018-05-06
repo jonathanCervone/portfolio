@@ -1,0 +1,16 @@
+﻿<div class="left-menu">
+    <div ng-class="{'left-menu-item':activeData.name != item.name, 'left-menu-item-selected': activeData.name == item.name}" ng-repeat="item in data | orderBy:'name'" ng-click="updateActiveData(item)">
+        {{item.name}}
+        <div class="triangle-left" ng-show="activeData.name == item.name"></div>
+    </div>
+</div>
+
+<div class="content-with-left-menu">
+    <div class="top-display">
+        <div class="content-title">{{activeData.name}}</div>
+        <img class="centered-image" src="{{activeData.images[imageIndex]}}" />
+    </div>
+    <div class="bottom-display">
+        <img class="image-thumbnail" ng-repeat="image in activeData.images" src="{{image}}" ng-click="updateImageIndex($index)"/>
+    </div>
+</div>

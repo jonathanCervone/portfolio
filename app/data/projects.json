@@ -1,0 +1,226 @@
+﻿{
+  "projects": [
+    {
+      "name": "Syspro ERP Modules",
+      "objective": "As an ongoing project and updated as needed; small addon modules are needed to accomplish specific tasks or display reports not available in the standard Syspro ERP. These modules need created upon request to make these readibly available within the ERP.",
+      "date": "January 2008 to Present",
+      "tech": [
+        "VBScript",
+        "SQL",
+        "XML",
+        "Microsoft Office/ Excel",
+        "VBA"
+      ],
+      "howBuilt": "Code created using either Notepad++ or Syspro's built in code viewer. VBScript with XML markup required as it is the only avaialbe way to integrate directly with the ERP. SQL queries used to populate data.",
+      "testing": "Code reviewed and then imported to Syspro. Module functionality tested within Syspro framework using a wide variety of parameters.",
+      "implementation": "Code stored on sharepoint and distributed to users who require the module. Imported from .txt file stored."
+    },
+    {
+      "name": "SysproView",
+      "objective": "Due to the lack of clarity and customization within Syspro, SysproView was designed to take data from Syspro and either automaate and perform complex tasks or make the data easily viewable and understandable.",
+      "date": "March 2015 - June 2015",
+      "tech": [
+        "Ruby on Rails",
+        "MySQL",
+        "HTML5",
+        "CSS",
+        "Cloud9.io"
+      ],
+      "howBuilt": "Code was created and tested using the IDE available through Cloud9.io. As no direct connection to the Syspro database was authorized by management, data was exported to a CSV file and then uploaded to the site's MySQL database. ",
+      "testing": "Testing performed on Cloud9; task results were compared to the results from manual processes and verified regularly. Further testing and requests provided through internal end users.",
+      "implementation": "Ruby was installed on an internal server, allowing access within the network. CSV files were generated and uploaded daily."
+    },
+    {
+      "name": "ERP Automated Notifications",
+      "objective": "Management requested the ability to auto-generate shipping and order confirmation emails to be sent to the customers, as well as internal quick data posted to Yammer. Additional automated tasks created in SysproView project ported over to further automate tasks, especially those related to MRP scheduling.",
+      "date": "September 2016 - October 2016, Ongoing",
+      "tech": [
+        "C#",
+        "ASP.net",
+        "SQL Server",
+        "Visual Studio 2015",
+        "IIS"
+      ],
+      "howBuilt": "This project required two parts. First, a web API was created using ASP.net. The API populated data, applied the data to templates, and sent either through email using SMTP protocols or posted to Yammer through Yammer's API. Tasks created within SysproView were applied to the API to eliminate the need for human intervention. The second form of this project took the form of a Windows Service. The service read a config from a JSON file, tracked and scheduled when API calls should be made, and performed the HTML call to the created web API.",
+      "testing": "All calls made by to the web API were logged and checked for accuracy. Code was walked through using debugger mode in Visual Studio 2015. Test API calls made using Postman.",
+      "implementation": "Web API installed on a internal server using IIS. The Windows Service installed on the same server. Additional requests result in further expansion as needed."
+    },
+    {
+      "name": "Mister",
+      "objective": "The Mister provided control to a solenoid connected to a ultrasonic sensor to turn on a water mister when someone passed under it. ",
+      "date": "August 2016",
+      "tech": [
+        "C/C++",
+        "Arduino",
+        "Arduino IDE"
+      ],
+      "howBuilt": "Code was created and uploaded to an Arduino microcontroller using Arduino IDE. When the sensor sent a signal that there was presence, the Arduino opened a valve controlled by the solenoid for a set amount of time.",
+      "testing": "Code was uploaded, and expected activity confirmed by measuring voltage output.",
+      "implementation": "Solenoid and sensor wired to Arduino controller contained in a project box, and hooked to PCV pipe and water source."
+    },
+    {
+      "name": "Subway OCU and CMS",
+      "objective": "A pre-existing set of projects, new requirements and improvements were reqested by the customer. The OCU allowed ordering through an interactive Web App, and various aspects of it needed updates, as well as the introduction of a new management interface for the device. The Azure hosted CMS system provided reporting on sales, and required improved reporting as well as the creation of new features such as menu and price management.",
+      "date": "October 2016 - December 2016",
+      "tech": [
+        "C#",
+        "ASP.net",
+        "Azure",
+        "Visual Studio 2015",
+        "HTML5",
+        "CSS",
+        "AngularJS",
+        "IIS"
+      ],
+      "howBuilt": "Code existed for both within Visual Studio 2015. Changes were made, tested, and commited to source control. Various aspects of OCU code were minified and gulped; requiring extraction before proceeding. All aspects used ASP.net/ C#/ Angular. The additional OCU management site was appended to the OCU project; allowing two seperate HTML sites based on Angular to run on the same server.",
+      "testing": "All code was tested before implementation using an internal server and the devices used by the customer. The updated code was then deployed to a test site before sending it out to all cusotmers. As portions were tested and approved, new requests drove the requirements of the next round of updates.",
+      "implementation": "The CMS portion was maintained through Azure, while updates to the OCU required deployment to the customer's devices; installed and accessed through IIS locally."
+    },
+    {
+      "name": "Mathis Teller Kiosk",
+      "objective": "A pre-existing solution that provided video communication with a teller inside the office and the customer awaiting product pickup, this solution was deemed to unreliable due to the technology used and the clients internal network configuration. The solution was rebuilt, replacing the SignalR connectivity with MQTT protocols to improve reliability.",
+      "date": "December 2016 - March 2017",
+      "tech": [
+        "C#",
+        "ASP.net",
+        "Visual Studio 2015",
+        "HTML5",
+        "CSS",
+        "AngularJS",
+        "MQTT",
+        "SSL",
+        "WebRTC",
+        "IIS"
+      ],
+      "howBuilt": "Rebuilt from scratch, the new Web App was developed around MQTT protocols. These protocols supplied WebRTC components the handshaking procedures needed, and allowed for the Web App to update based on MQTT events.",
+      "testing": "Solution was deployed to an internal IIS server, and accessed for testing by QA and development personell.",
+      "implementation": "Web App installed on customer's IIS server, and MQTT broker installed on the same server as a service."
+    },
+    {
+      "name": "Solar Power Usage",
+      "objective": "Used for RD purposes, monitoring of how well solar panels charged a battery set to power LED lights for a specified amount of time each night, as well as weather conditions.",
+      "date": "April 2017",
+      "tech": [
+        "C#",
+        "ASP.net",
+        "Visual Studio 2015",
+        "HTML5",
+        "CSS",
+        "AngularJS",
+        "SQL Server",
+        "C/C++",
+        "Arduino",
+        "Arduino IDE",
+        "Breadbording",
+        "IIS"
+      ],
+      "howBuilt": "A SQL Server database was created to store charger readings as well as current weather conditions. A Web API/App was created to post to the server, retrieve weater data from WeatherUnderground, and provide a webpage with reporting capabilities. An Arduino device was attached to the charger circuit to read the voltage and post peroidocally to the Web API.",
+      "testing": "Voltage data was compared to the data shown on the charge controller of the solar panel. Test API calls made using Postman.",
+      "implementation": "SQL Server and Web Server stored on local server using IIS to host the site. Arduino device attached to charging circuit and placed outdoors for weeks to gather data."
+    },
+    {
+      "name": "Syspro ERP Expansion / Intranet",
+      "objective": "Requirements to remain compliant with UL resulted in the need for advanced reporting and document generation, unavailable with the current ERP. A Web App was required to fill these needs and serve as a platform for future requests.",
+      "date": "April 2017 - May 2017, Ongoing",
+      "tech": [
+        "C# / Razor",
+        "ASP.net",
+        "Visual Studio 2015",
+        "HTML5",
+        "CSS",
+        "AngularJS",
+        "SQL Server",
+        "IIS",
+        "Umbraco",
+        "MVC"
+      ],
+      "howBuilt": "Created using Umbraco CMS as a platform, a Web App was connected to the SQL Server and displayed relative data for the report.",
+      "testing": "Walked through code and a wide variety of variables used to generate reports. Deployed to local server and end users reported any remaining issues as they showed.",
+      "implementation": "Web Server deployed to local server using IIS."
+    },
+    {
+      "name": "Thermistor Notification",
+      "objective": "The Thermistor Notification regularly polled the temprature in the company's server room, posted a HTML call to the internal Web API, and sent out notifications when the temprature rised above set values.",
+      "date": "August 2017",
+      "tech": [
+        "C/C++",
+        "Arduino",
+        "Arduino IDE",
+        "C#",
+        "ASP.net",
+        "Visual Studio 2015",
+        "Breadbording"
+      ],
+      "howBuilt": "Web API call added to existing internal API server, and code uploaded to Arduino device using Arduino IDE. Thermistor wired to Arduino device which then calculated the current temprature.",
+      "testing": "Reading from thermistor artifically raised using a heat gun above set levels, using serial monitoring to view the current temprature. Email checked for when the range was correct, as well as the data it contained. Test API calls made using Postman.",
+      "implementation": "Arduino device placed in IT server room and connected to internal network. "
+    },
+    {
+      "name": "SiteFuel CMS Reconstruction",
+      "objective": "A freelance job, the existing PHP server was no longer available. The delivery platform was moved to Azure, and the code recreated to account for this as well as to introduce new features.",
+      "date": "August 2017",
+      "tech": [
+        "ASP.net",
+        "Visual Studio 2015",
+        "HTML5",
+        "CSS",
+        "AngularJS",
+        "SQL Server",
+        "IIS",
+        "Azure"
+      ],
+      "howBuilt": "Existing PHP source code was examined for relavant methods and queries, and then reconstructed using Angular and ASP.net as the framework",
+      "testing": "Code was wakled through as built, and then tested by customer",
+      "implementation": "Commited to customer's source code and deployed to Azure through Visual Studio 2015."
+    },
+    {
+      "name": "R&D Arduino Modules",
+      "objective": "In anticipation of upcoming projects, various components needed researched and tested to confirm design feasibility; focused on network protocols, sensors, audio, and visual Arduino modules.",
+      "date": "September 2017 - November 2017",
+      "tech": [
+        "C/C++",
+        "Arduino",
+        "Arduino IDE",
+        "Breadbording"
+      ],
+      "howBuilt": "Each module created independently using Arduino devices. Libraries and schematics created when relavant.",
+      "testing": "Dependent on module, monitoring the Arduino device with serial monitoring, sensors with voltages and serial monitoring, and networking using Wireshark.",
+      "implementation": "Data collected on each module, usability assessed. Libraries created for future use."
+    },
+    {
+      "name": "Syspro CRM Historical Data",
+      "objective": "To prepare for discontinuing service of the Syspro CRM, historical data needed to be available for sales or customer service representatives.",
+      "date": "December 2017",
+      "tech": [
+        "C# / Razor",
+        "ASP.net",
+        "Visual Studio 2017",
+        "HTML5",
+        "CSS",
+        "AngularJS",
+        "SQL Server",
+        "IIS",
+        "Umbraco",
+        "MVC"
+      ],
+      "howBuilt": "Existing database was examined and relavant data identified. New SQL Server created with updated architecture, and data ported over to this database. Views and searches added to the Umbraco based Web App 'Syspro ERP Expansion' created previously.",
+      "testing": "Walked through code and a wide variety of variables used to generate reports. Deployed to local server and end users used along side existing CMS system until it was deactivated.",
+      "implementation": "SQL Server deployed locally and existing IIS web site updated."
+    },
+    {
+      "name": "Presence Indicator System",
+      "objective": "An R&D project to create a circuit board that created visual and audio notifications based on activity from connected sensors.",
+      "date": "January 2018 - Present",
+      "tech": [
+        "C/C++",
+        "Arduino",
+        "Atmel Studio 7",
+        "Breadbording",
+        "C#"
+      ],
+      "howBuilt": "Working with electrical engineer, circuit board designed with required components. Each software module added to microcontroller and controlled with a RTOS system.",
+      "testing": "Dependent on module, monitoring the Arduino device with serial monitoring, sensors with voltages and serial monitoring, and networking using Wireshark.",
+      "implementation": "Code uploaded to microcontroller on circuit board using Atmel Studio 7."
+    }
+  ]
+}
