@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -15,7 +15,7 @@
     <script src="/app/controllers/hobbiesController.js"></script>
     <script src="/app/controllers/projectsController.js"></script>
     <script src="/app/controllers/experienceController.js"></script>
-    <!--Factories-->
+    <script src="/app/controllers/homeController.js"></script>
     <!--CSS-->
     <link href="/app/css/menu.css" rel="stylesheet" type="text/css" />
     <link href="/app/css/content.css" rel="stylesheet" type="text/css" />
@@ -23,7 +23,7 @@
     <link href="/app/css/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css" />
 </head>
     <body ng-app="app" lang="en">
-        <div class="app-menu" ng-include="'app/partials/menu.html'"></div>
+        <div class="app-menu" ng-include="'/app/partials/menu.html'"></div>
         <div class="app-content" ng-view></div>
     </body>
 </html>
