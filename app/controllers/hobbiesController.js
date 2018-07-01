@@ -1,3 +1,0 @@
-﻿app.controller("hobbiesController", function () {
-
-})
