@@ -2,7 +2,7 @@
 
 app.config(function ($routeProvider, $locationProvider) {
     $routeProvider.when("/", {
-        controller: "",
+        controller: "homeController",
         templateUrl: "/app/views/home.html",
         title: "Home",
         description: "Home page for Jonathan Cervone's software development portfolio."

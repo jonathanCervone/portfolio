@@ -5,11 +5,12 @@
     </div>
 </div>
 
-<div class="content-with-left-menu" ng-show="!activeData">
+<div class="content-with-left-menu" ng-show="!activeData" style="background-image:url('../../Images/Bloom.png')">
     <div class="content-title">Experiences</div>
+    <div class="content-subtitle">Click on an area to the left and see more details!</div>
 </div>
 
-<div class="content-with-left-menu" ng-hide="!activeData || activeData.name != 'Technical Skills'">
+<div class="content-with-left-menu" ng-hide="!activeData || activeData.name != 'Technical Skills'" style="background-image:url('../../Images/Bloom.png')">
     <div class="content-title">{{activeData.name}}</div>
     <div class="content-subtitle">{{activeData.description}}</div>
 
@@ -30,7 +31,7 @@
     </div>
 </div>
 
-<div class="content-with-left-menu" ng-hide="!activeData || activeData.name != 'Professional Experience'">
+<div class="content-with-left-menu" ng-hide="!activeData || activeData.name != 'Professional Experience'" style="background-image:url('../../Images/Bloom.png')">
     <div class="content-title">{{activeData.name}}</div>
     <div class="content-subtitle">{{activeData.description}}</div>
 
@@ -49,7 +50,7 @@
     </div>
 </div>
 
-<div class="content-with-left-menu" ng-hide="!activeData || activeData.name != 'Education'">
+<div class="content-with-left-menu" ng-hide="!activeData || activeData.name != 'Education'" style="background-image:url('../../Images/Bloom.png')">
     <div class="content-title">{{activeData.name}}</div>
     <div class="content-subtitle">{{activeData.description}}</div>
 

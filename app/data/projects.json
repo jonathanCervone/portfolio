@@ -3,7 +3,7 @@
     {
       "name": "Syspro ERP Modules",
       "objective": "As an ongoing project and updated as needed; small addon modules are needed to accomplish specific tasks or display reports not available in the standard Syspro ERP. These modules need created upon request to make these readibly available within the ERP.",
-      "date": "January 2008 to Present",
+      "date": "January 2008 to June 2018",
       "tech": [
         "VBScript",
         "SQL",
@@ -33,7 +33,7 @@
     {
       "name": "ERP Automated Notifications",
       "objective": "Management requested the ability to auto-generate shipping and order confirmation emails to be sent to the customers, as well as internal quick data posted to Yammer. Additional automated tasks created in SysproView project ported over to further automate tasks, especially those related to MRP scheduling.",
-      "date": "September 2016 - October 2016, Ongoing",
+      "date": "September 2016 - June 2018",
       "tech": [
         "C#",
         "ASP.net",
@@ -119,9 +119,9 @@
       "implementation": "SQL Server and Web Server stored on local server using IIS to host the site. Arduino device attached to charging circuit and placed outdoors for weeks to gather data."
     },
     {
-      "name": "Syspro ERP Expansion / Intranet",
+      "name": "Syspro ERP Intranet",
       "objective": "Requirements to remain compliant with UL resulted in the need for advanced reporting and document generation, unavailable with the current ERP. A Web App was required to fill these needs and serve as a platform for future requests.",
-      "date": "April 2017 - May 2017, Ongoing",
+      "date": "April 2017 - June 2018",
       "tech": [
         "C# / Razor",
         "ASP.net",

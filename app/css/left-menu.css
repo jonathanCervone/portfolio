@@ -4,11 +4,25 @@
     left: 0;
     width: 200px;
     bottom: 0;
-    background-color: rgba(100,100,120,1);
+    background-color: rgba(0,100,120,1);
     font-size: 11px;
     color: rgba(255,255,255,1);
     line-height: 20px;
     font-family: sans-serif;
+    overflow: auto;
+}
+
+.left-menu::-webkit-scrollbar {
+    width: 5px;
+    background-color: rgba(0,100,120,.75);
+}
+
+.left-menu::-webkit-scrollbar-track {
+    background: rgba(0,100,120,.75);
+}
+
+.left-menu::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,1);
 }
 
 .left-menu-item {
@@ -17,14 +31,14 @@
 
 .left-menu-item-selected {
     padding: 10px 5px 10px 10px;
-    background-color: rgba(200,200,215,1);
-    color: rgba(100,100,100,1);
+    background-color: rgba(255,255,255,.5);
+    color: rgba(50,50,50,1);
     font-size: 12px;
 }
 
 .left-menu-item:hover {
-    background-color: rgba(125,125,145,1);
-    font-size:12px;
+    background-color: rgba(255,255,255,.25);
+    font-size: 12px;
     cursor: pointer;
 }
 
@@ -37,4 +51,10 @@
     float: right;
     margin-top: -10px;
     margin-right: -5px;
+}
+
+@media print {
+    .left-menu {
+        display: none !important;
+    }
 }
